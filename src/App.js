@@ -84,7 +84,7 @@ function App() {
               <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="18" cy="18" r="18" fill="#E0F7FA"/><path d="M13.5 18c0-2.485 2.015-4.5 4.5-4.5s4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5-4.5-2.015-4.5-4.5Z" stroke="#4ecdc4" strokeWidth="2"/><path d="M18 13.5V10m0 16v-3.5m4.5-4.5H26m-16 0h3.5" stroke="#4ecdc4" strokeWidth="2" strokeLinecap="round"/></svg>
             </div>
             <div className="feature-content">
-              <div className="feature-title">Cognitive Games</div>
+              <div className="feature-title">Cognitive Exercises</div>
               <div className="feature-desc">Fun, interactive exercises designed to improve memory, attention, and processing speed.</div>
             </div>
           </div>
