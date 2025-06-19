@@ -1,31 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import { supabase } from './supabaseClient';
 
 function App() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState('');
 
+  // Debug log on component mount
+  useEffect(() => {
+    console.log('Supabase URL:', process.env.REACT_APP_SUPABASE_URL ? '✓ Found' : '✗ Missing');
+    console.log('Supabase Key:', process.env.REACT_APP_SUPABASE_ANON_KEY ? '✓ Found' : '✗ Missing');
+    
+    // Test Supabase connection
+    const testConnection = async () => {
+      try {
+        const { error } = await supabase.from('waitlist_emails').select('count').limit(0);
+        if (error) {
+          console.error('Supabase connection test error:', error);
+        } else {
+          console.log('Supabase connection test: ✓ Success');
+        }
+      } catch (err) {
+        console.error('Supabase connection test failed:', err);
+      }
+    };
+    
+    testConnection();
+  }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     try {
-      const res = await fetch('https://formspree.io/f/xkgrbwng', {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email }),
-      });
-      if (res.ok) {
+      console.log('Attempting to insert email:', email);
+      const { error } = await supabase
+        .from('waitlist_emails')
+        .insert([{ email: email }]);
+      
+      if (error) {
+        console.error('Supabase error details:', error);
+        setError(`Error: ${error.message}`);
+      } else {
         setSubmitted(true);
         setEmail('');
-      } else {
-        setError('Something went wrong. Please try again.');
       }
     } catch (err) {
-      setError('Network error. Please try again.');
+      console.error('Network error details:', err);
+      setError(`Network error: ${err.message}`);
     }
   };
 
