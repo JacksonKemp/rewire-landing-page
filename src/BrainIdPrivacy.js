@@ -9,20 +9,20 @@ function RewireIdPrivacy() {
           <img src={process.env.PUBLIC_URL + '/rewire-logo.png'} alt="Rewire Logo" className="rewire-navbar-logo large-logo" />
         </nav>
         <div className="privacy-container">
-          <h1 className="privacy-title">Rewire ID Privacy Policy</h1>
+          <h1 className="privacy-title">Brain ID Privacy Policy</h1>
           <div className="privacy-content">
             <div className="privacy-header">
-              <h2>Rewire ID Privacy Policy</h2>
+              <h2>Brain ID Privacy Policy</h2>
               <p className="effective-date"><strong>Effective Date:</strong> Wednesday, September 10, 2025</p>
             </div>
             
             <p className="privacy-intro">
-              Rewire ID ("we," "our," or "us") values the privacy of patients and practitioners. This Privacy Policy explains how we collect, use, and protect information when practitioners use Rewire ID to write, store, and share reports with patients.
+              Brain ID ("we," "our," or "us") values the privacy of patients and practitioners. This Privacy Policy explains how we collect, use, and protect information when practitioners use Brain ID to write, store, and share reports with patients.
             </p>
 
             <div className="privacy-section">
               <h2>1. Information We Collect</h2>
-              <p>We may collect the following information through the Rewire ID platform:</p>
+              <p>We may collect the following information through the Brain ID platform:</p>
               
               <h3>From Practitioners</h3>
               <ul>
@@ -102,7 +102,7 @@ function RewireIdPrivacy() {
 
             <div className="privacy-section">
               <h2>7. Children's Privacy</h2>
-              <p>Rewire ID is intended for use by licensed practitioners and their patients. Patients under 18 may only use the platform with parental or guardian consent, as required by law.</p>
+              <p>Brain ID is intended for use by licensed practitioners and their patients. Patients under 18 may only use the platform with parental or guardian consent, as required by law.</p>
             </div>
 
             <div className="privacy-section">

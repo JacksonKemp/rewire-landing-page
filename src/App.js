@@ -4,7 +4,7 @@ import './App.css';
 import Home from './Home';
 import Support from './Support';
 import Privacy from './Privacy';
-import RewireIdPrivacy from './RewireIdPrivacy';
+import BrainIdPrivacy from './BrainIdPrivacy';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/support" element={<Support />} />
         <Route path="/privacy" element={<Privacy />} />
-        <Route path="/rewire-id-privacy" element={<RewireIdPrivacy />} />
+        <Route path="/rewire-id-privacy" element={<BrainIdPrivacy />} />
       </Routes>
     </Router>
   );
