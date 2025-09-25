@@ -52,13 +52,13 @@ function Terms() {
               </ul>
               
               <h3>Price:</h3>
-              <p>Displayed in-app and may vary by region (e.g., $8.99/month, $69.99/year). Where shown, we may display per-unit pricing (e.g., monthly equivalent for annual).</p>
+              <p>Pricing is displayed in-app and varies by region and local currency. Where applicable, we may display per-unit pricing (e.g., monthly equivalent for annual subscriptions).</p>
               
               <h3>Billing & Renewal:</h3>
               <p>Your Apple ID is charged at purchase confirmation. Subscriptions renew automatically unless canceled at least 24 hours before the current period ends. Your account is charged for renewal within 24 hours before the end of the period. Manage or cancel in Settings → Apple ID → Subscriptions after purchase. Deleting the App does not cancel your subscription.</p>
               
               <h3>Trials/Promotions:</h3>
-              <p>If offered, free trials convert to paid subscriptions at the listed price unless canceled at least 24 hours before the trial ends.</p>
+              <p>If offered, free trials convert to paid subscriptions at the current pricing unless canceled at least 24 hours before the trial ends.</p>
               
               <h3>Price Changes:</h3>
               <p>If prices change, Apple may notify you. Continuing the subscription or renewing after notice constitutes acceptance; otherwise cancel before renewal.</p>
@@ -92,7 +92,7 @@ function Terms() {
 
             <div className="privacy-section">
               <h2>9) Limitation of Liability</h2>
-              <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO YOUR USE OF THE APP. OUR TOTAL LIABILITY FOR ANY CLAIM WILL NOT EXCEED THE AMOUNT YOU PAID FOR THE SUBSCRIPTION PERIOD IN WHICH THE CLAIM AROSE (OR, IF NONE, USD $50).</p>
+              <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO YOUR USE OF THE APP. OUR TOTAL LIABILITY FOR ANY CLAIM WILL NOT EXCEED THE AMOUNT YOU PAID FOR THE SUBSCRIPTION PERIOD IN WHICH THE CLAIM AROSE (OR, IF NONE, $50 USD EQUIVALENT IN YOUR LOCAL CURRENCY).</p>
             </div>
 
             <div className="privacy-section">
