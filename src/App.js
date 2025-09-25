@@ -5,6 +5,7 @@ import Home from './Home';
 import Support from './Support';
 import Privacy from './Privacy';
 import RewireIdPrivacy from './BrainIdPrivacy';
+import Terms from './Terms';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/brain-id-privacy" element={<RewireIdPrivacy />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </Router>
   );
