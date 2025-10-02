@@ -68,6 +68,9 @@ function Terms() {
               
               <h3>Entitlements:</h3>
               <p>Premium features are available only with an active, paid subscription. If billing fails or a subscription lapses, premium access may be disabled.</p>
+              
+              <h3>Subscriptions & Billing:</h3>
+              <p>Subscriptions are billed through the Apple App Store. You can manage, upgrade, or cancel your subscription in your Apple account settings. Deleting your Rewire account or uninstalling the app does not cancel your Apple subscription. To stop future charges, cancel the subscription in Settings → Apple ID → Subscriptions (or via the in-app "Manage Subscription" link). Refunds, proration, and billing disputes are handled by Apple under its policies.</p>
             </div>
 
             <div className="privacy-section">
@@ -98,6 +101,9 @@ function Terms() {
             <div className="privacy-section">
               <h2>10) Termination</h2>
               <p>We may suspend or terminate your access for violation of these Terms or for other lawful reasons. Sections that by nature should survive (e.g., ownership, disclaimers, liability limits) will survive termination.</p>
+              
+              <h3>Termination / Account Deletion:</h3>
+              <p>You may delete your Rewire account at any time from within the app. Account deletion is permanent and removes your personal data from our systems in accordance with our Privacy Policy. Account deletion does not affect any active App Store subscription; you must cancel it separately with Apple.</p>
             </div>
 
             <div className="privacy-section">
