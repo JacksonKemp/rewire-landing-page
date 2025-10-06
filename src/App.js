@@ -6,6 +6,7 @@ import Support from './Support';
 import Privacy from './Privacy';
 import RewireIdPrivacy from './BrainIdPrivacy';
 import Terms from './Terms';
+import EmailVerified from './EmailVerified';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/brain-id-privacy" element={<RewireIdPrivacy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/email-verified" element={<EmailVerified />} />
       </Routes>
     </Router>
   );
